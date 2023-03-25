@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tsmiRectangleTransparent.Text" xml:space="preserve">
+    <value>Oblast (průhledná)</value>
+  </data>
+  <data name="chFilename.Text" xml:space="preserve">
+    <value>Název souboru</value>
+  </data>
+  <data name="chStatus.Text" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="chProgress.Text" xml:space="preserve">
+    <value>Průběh</value>
+  </data>
+  <data name="chSpeed.Text" xml:space="preserve">
+    <value>Rychlost</value>
+  </data>
+  <data name="chElapsed.Text" xml:space="preserve">
+    <value>Uplynulo</value>
+  </data>
+  <data name="chRemaining.Text" xml:space="preserve">
+    <value>Zbývá</value>
+  </data>
+  <data name="chURL.Text" xml:space="preserve">
+    <value>Adresa URL</value>
+  </data>
+  <data name="tsmiFullscreen.Text" xml:space="preserve">
+    <value>Celá obrazovka</value>
+  </data>
+  <data name="tsmiWindow.Text" xml:space="preserve">
+    <value>Okno</value>
+  </data>
+  <data name="tsmiMonitor.Text" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="tsmiRectangle.Text" xml:space="preserve">
+    <value>Oblast</value>
+  </data>
+  <data name="tsmiRectangleLight.Text" xml:space="preserve">
+    <value>Oblast (Světlá)</value>
+  </data>
+  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
+    <value>Okno bez rámečku...</value>
+  </data>
+  <data name="tsmiLastRegion.Text" xml:space="preserve">
+    <value>Poslední oblast</value>
+  </data>
+  <data name="tsmiScreenRecordingFFmpeg.Text" xml:space="preserve">
+    <value>Nahrávání obrazovky</value>
+  </data>
+  <data name="tsmiScreenRecordingGIF.Text" xml:space="preserve">
+    <value>Nahrávání obrazovky (GIF)</value>
+  </data>
+  <data name="tsmiScrollingCapture.Text" xml:space="preserve">
+    <value>Dlouhý snímek...</value>
+  </data>
+  <data name="tsmiAutoCapture.Text" xml:space="preserve">
+    <value>Automatický záznam...</value>
+  </data>
+  <data name="tsmiShowCursor.Text" xml:space="preserve">
+    <value>Zobrazit kurzor</value>
+  </data>
+  <data name="tsmiScreenshotDelay0.Text" xml:space="preserve">
+    <value>Žádné zpoždění</value>
+  </data>
+  <data name="tsmiScreenshotDelay1.Text" xml:space="preserve">
+    <value>1 sekunda</value>
+  </data>
+  <data name="tsmiScreenshotDelay2.Text" xml:space="preserve">
+    <value>2 sekundy</value>
+  </data>
+  <data name="tsmiScreenshotDelay3.Text" xml:space="preserve">
+    <value>3 sekundy</value>
+  </data>
+  <data name="tsmiScreenshotDelay4.Text" xml:space="preserve">
+    <value>4 sekundy</value>
+  </data>
+  <data name="tsmiScreenshotDelay5.Text" xml:space="preserve">
+    <value>5 sekund</value>
+  </data>
+  <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
+    <value>Zpoždění snímání</value>
+  </data>
+  <data name="tsddbCapture.Text" xml:space="preserve">
+    <value>Zachytit</value>
+  </data>
+  <data name="tsmiUploadFile.Text" xml:space="preserve">
+    <value>Nahrát soubor...</value>
+  </data>
+  <data name="tsmiUploadFolder.Text" xml:space="preserve">
+    <value>Odeslat složku...</value>
+  </data>
+  <data name="tsmiUploadClipboard.Text" xml:space="preserve">
+    <value>Nahrát ze schránky...</value>
+  </data>
+  <data name="tsmiUploadText.Text" xml:space="preserve">
+    <value>nahrát text...</value>
+  </data>
+  <data name="tsmiUploadURL.Text" xml:space="preserve">
+    <value>Nahrát z URL adresy...</value>
+  </data>
+  <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
+    <value>nahrát přetažením...</value>
+  </data>
+  <data name="tsmiShortenURL.Text" xml:space="preserve">
+    <value>Zkrátit URL adresu...</value>
+  </data>
+  <data name="tsmiTweetMessage.Text" xml:space="preserve">
+    <value>Tweetovat...</value>
+  </data>
+  <data name="tsddbUpload.Text" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="tsddbWorkflows.Text" xml:space="preserve">
+    <value>Pracovní postupy</value>
+  </data>
+  <data name="tsmiColorPicker.Text" xml:space="preserve">
+    <value>Výběr barvy...</value>
+  </data>
+  <data name="tsmiScreenColorPicker.Text" xml:space="preserve">
+    <value>Výběr barvy na obrazovce...</value>
+  </data>
+  <data name="tsmiRuler.Text" xml:space="preserve">
+    <value>Pravítko...</value>
+  </data>
+  <data name="tsmiPinToScreen.Text" xml:space="preserve">
+    <value>Připnout na obrazovku...</value>
+  </data>
+  <data name="tsmiImageEditor.Text" xml:space="preserve">
+    <value>Editor obrázků...</value>
+  </data>
+  <data name="tsmiImageEffects.Text" xml:space="preserve">
+    <value>Efekty obrázku...</value>
+  </data>
+  <data name="tsmiImageViewer.Text" xml:space="preserve">
+    <value>Prohlížeč obrázků...</value>
+  </data>
+  <data name="tsmiImageCombiner.Text" xml:space="preserve">
+    <value>Spojení obrázků...</value>
+  </data>
+  <data name="tsmiImageSplitter.Text" xml:space="preserve">
+    <value>Rozdělení obrázků...</value>
+  </data>
+  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
+    <value>Tvorba náhledů...</value>
+  </data>
+  <data name="tsmiVideoConverter.Text" xml:space="preserve">
+    <value>Převodník videa...</value>
+  </data>
+  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
+    <value>Tvorba náhledů z videa...</value>
+  </data>
+  <data name="tsmiOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiQRCode.Text" xml:space="preserve">
+    <value>QR kód...</value>
+  </data>
+  <data name="tsmiHashCheck.Text" xml:space="preserve">
+    <value>Zkontrolovat hash...</value>
+  </data>
+  <data name="tsmiIndexFolder.Text" xml:space="preserve">
+    <value>Indexace adresářů...</value>
+  </data>
+  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
+    <value>Prohlížeč schránky...</value>
+  </data>
+  <data name="tsbApplicationSettings.Text" xml:space="preserve">
+    <value>Nastavení aplikace...</value>
+  </data>
+  <data name="tsmiInspectWindow.Text" xml:space="preserve">
+    <value>Prozkoumat okno...</value>
+  </data>
+  <data name="tsmiMonitorTest.Text" xml:space="preserve">
+    <value>Test monitoru...</value>
+  </data>
+  <data name="tsmiDNSChanger.Text" xml:space="preserve">
+    <value>Změna DNS...</value>
+  </data>
+  <data name="tsddbTools.Text" xml:space="preserve">
+    <value>Nástroje</value>
+  </data>
+  <data name="tsddbAfterCaptureTasks.Text" xml:space="preserve">
+    <value>Úlohy po nasnímání</value>
+  </data>
+  <data name="tsddbAfterUploadTasks.Text" xml:space="preserve">
+    <value>Úlohy po nahrání</value>
+  </data>
+  <data name="tsmiImageUploaders.Text" xml:space="preserve">
+    <value>Nahrávače obrázků</value>
+  </data>
+  <data name="tsmiTextUploaders.Text" xml:space="preserve">
+    <value>Nahrávače textu</value>
+  </data>
+  <data name="tsmiFileUploaders.Text" xml:space="preserve">
+    <value>Nahrávače souborů</value>
+  </data>
+  <data name="tsmiURLShorteners.Text" xml:space="preserve">
+    <value>Zkracovače URL adres</value>
+  </data>
+  <data name="tsmiURLSharingServices.Text" xml:space="preserve">
+    <value>Služby sdílení URL adres</value>
+  </data>
+  <data name="tsmiDestinationSettings.Text" xml:space="preserve">
+    <value>Nasatvení cíle...</value>
+  </data>
+  <data name="tsmiCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Vlastní nastavení nahrávače...</value>
+  </data>
+  <data name="tsddbDestinations.Text" xml:space="preserve">
+    <value>Cíle</value>
+  </data>
+  <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
+    <value>Připnout na obrazovku</value>
+  </data>
+  <data name="tsbTaskSettings.Text" xml:space="preserve">
+    <value>Nastavení úloh...</value>
+  </data>
+  <data name="tsbHotkeySettings.Text" xml:space="preserve">
+    <value>Nastavení klávesových zkratek...</value>
+  </data>
+  <data name="tsbScreenshotsFolder.Text" xml:space="preserve">
+    <value>Složka pro snímky...</value>
+  </data>
+  <data name="tsbHistory.Text" xml:space="preserve">
+    <value>Historie...</value>
+  </data>
+  <data name="tsbImageHistory.Text" xml:space="preserve">
+    <value>Historie obrázků...</value>
+  </data>
+  <data name="tsmiShowDebugLog.Text" xml:space="preserve">
+    <value>Ladící log...</value>
+  </data>
+  <data name="tsmiTestImageUpload.Text" xml:space="preserve">
+    <value>Otestovat nahrávání obrázů</value>
+  </data>
+  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
+    <value>Otestovat nahrávání textu</value>
+  </data>
+  <data name="tsmiTestFileUpload.Text" xml:space="preserve">
+    <value>Otestovat nahrávání souborů</value>
+  </data>
+  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
+    <value>Otestovat zkracovač URL adres</value>
+  </data>
+  <data name="tsmiTestURLSharing.Text" xml:space="preserve">
+    <value>Otestovat sdílení URL adres</value>
+  </data>
+  <data name="tsddbDebug.Text" xml:space="preserve">
+    <value>Ladění</value>
+  </data>
+  <data name="tsbDonate.Text" xml:space="preserve">
+    <value>Přispějte na vývoj projektu...</value>
+  </data>
+  <data name="tsbTwitter.Text" xml:space="preserve">
+    <value>Twitter...</value>
+  </data>
+  <data name="tsbDiscord.Text" xml:space="preserve">
+    <value>Discord...</value>
+  </data>
+  <data name="tsbAbout.Text" xml:space="preserve">
+    <value>O aplikaci...</value>
+  </data>
+  <data name="tsmiShowErrors.Text" xml:space="preserve">
+    <value>Zobrazit chyby</value>
+  </data>
+  <data name="tsmiStopUpload.Text" xml:space="preserve">
+    <value>Ukončit nahrávání</value>
+  </data>
+  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="tsmiOpenURL.Text" xml:space="preserve">
+    <value>Adresa URL</value>
+  </data>
+  <data name="tsmiOpenShortenedURL.Text" xml:space="preserve">
+    <value>Zkrácená adresa URL</value>
+  </data>
+  <data name="tsmiOpenThumbnailURL.Text" xml:space="preserve">
+    <value>Adresa URL náhledu</value>
+  </data>
+  <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
+    <value>Adresa URL pro smazání</value>
+  </data>
+  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+Enter</value>
+  </data>
+  <data name="tsmiOpenFile.Text" xml:space="preserve">
+    <value>Soubor</value>
+  </data>
+  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Shift+Enter</value>
+  </data>
+  <data name="tsmiOpenFolder.Text" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="tsmiOpenThumbnailFile.Text" xml:space="preserve">
+    <value>Soubor náhledu</value>
+  </data>
+  <data name="tsmiOpen.Text" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="tsmiCopyURL.Text" xml:space="preserve">
+    <value>Adresa URL</value>
+  </data>
+  <data name="tsmiCopyShortenedURL.Text" xml:space="preserve">
+    <value>Zkrácená adresa URL</value>
+  </data>
+  <data name="tsmiCopyThumbnailURL.Text" xml:space="preserve">
+    <value>Adresa URL miniatury</value>
+  </data>
+  <data name="tsmiCopyDeletionURL.Text" xml:space="preserve">
+    <value>Adresa URL pro smazání</value>
+  </data>
+  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+Shift+C</value>
+  </data>
+  <data name="tsmiCopyFile.Text" xml:space="preserve">
+    <value>Soubor</value>
+  </data>
+  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Alt+C</value>
+  </data>
+  <data name="tsmiCopyImage.Text" xml:space="preserve">
+    <value>Obrázek</value>
+  </data>
+  <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
+    <value>Rozměry obrázku</value>
+  </data>
+  <data name="tsmiCopyText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="tsmiCopyThumbnailFile.Text" xml:space="preserve">
+    <value>Název souboru náhledu</value>
+  </data>
+  <data name="tsmiCopyThumbnailImage.Text" xml:space="preserve">
+    <value>Náhled obrázku</value>
+  </data>
+  <data name="tsmiCopyHTMLLink.Text" xml:space="preserve">
+    <value>Odkaz HTML</value>
+  </data>
+  <data name="tsmiCopyHTMLImage.Text" xml:space="preserve">
+    <value>HTML obrázek</value>
+  </data>
+  <data name="tsmiCopyHTMLLinkedImage.Text" xml:space="preserve">
+    <value>Obrázek propojený pomocí HTML</value>
+  </data>
+  <data name="tsmiCopyForumLink.Text" xml:space="preserve">
+    <value>Odkaz na fórum (BBCode)</value>
+  </data>
+  <data name="tsmiCopyForumImage.Text" xml:space="preserve">
+    <value>Obrázek fóra (BBCode)</value>
+  </data>
+  <data name="tsmiCopyForumLinkedImage.Text" xml:space="preserve">
+    <value>Fórum (BBCode) propojený obrázek</value>
+  </data>
+  <data name="tsmiCopyMarkdownLink.Text" xml:space="preserve">
+    <value>Odkaz Markdown</value>
+  </data>
+  <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
+    <value>Obrázek Markdown</value>
+  </data>
+  <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
+    <value>Obrázek s odkazem Markdown</value>
+  </data>
+  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+Shift+C</value>
+  </data>
+  <data name="tsmiCopyFilePath.Text" xml:space="preserve">
+    <value>Cesta k souboru</value>
+  </data>
+  <data name="tsmiCopyFileName.Text" xml:space="preserve">
+    <value>Název souboru</value>
+  </data>
+  <data name="tsmiCopyFileNameWithExtension.Text" xml:space="preserve">
+    <value>Název souboru s příponou</value>
+  </data>
+  <data name="tsmiCopyFolder.Text" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="tsmiCopy.Text" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+U</value>
+  </data>
+  <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+D</value>
+  </data>
+  <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
+    <value>Stáhnout</value>
+  </data>
+  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="tsmiEditSelectedFile.Text" xml:space="preserve">
+    <value>Upravit obrázek...</value>
+  </data>
+  <data name="tsmiAddImageEffects.Text" xml:space="preserve">
+    <value>Přidat obrazové efekty...</value>
+  </data>
+  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+P</value>
+  </data>
+</root>
